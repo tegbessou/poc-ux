@@ -8,17 +8,17 @@ services:
 
   nginx:
     environment:
-      VIRTUAL_HOST: skeleton.docker
+      VIRTUAL_HOST: poc-ux.docker
       CERT_NAME: default
 
   phpmyadmin:
     environment:
-      VIRTUAL_HOST: pma.skeleton.docker
+      VIRTUAL_HOST: pma.poc-ux.docker
       CERT_NAME: default
 
   smtp:
     environment:
-      VIRTUAL_HOST: mailcatcher.skeleton.docker
+      VIRTUAL_HOST: mailcatcher.poc-ux.docker
       CERT_NAME: default
 
   selenium:
