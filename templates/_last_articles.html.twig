@@ -1,0 +1,12 @@
+<turbo-frame id="last-articles">
+    <ul class="list-group" data-turbo="false">
+        {% for article in articles %}
+            <li class="list-group-item">
+                <a href="{{ path('app_article', {id: article.id}) }}" title="{{ article.title }}">
+                    <div>{{ article.title }}</div>
+                    <div>Ecrit par: {{ article.author.username }}, le {{ article.createdAt|date('d-m-Y') }}</div>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</turbo-frame>

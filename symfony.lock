@@ -155,6 +155,12 @@
     "instaclick/php-webdriver": {
         "version": "1.4.7"
     },
+    "knplabs/knp-components": {
+        "version": "v3.3.0"
+    },
+    "knplabs/knp-paginator-bundle": {
+        "version": "v5.7.0"
+    },
     "laminas/laminas-code": {
         "version": "3.4.1"
     },
@@ -638,6 +644,9 @@
     "symfony/twig-pack": {
         "version": "v1.0.0"
     },
+    "symfony/ux-turbo": {
+        "version": "v1.3.0"
+    },
     "symfony/validator": {
         "version": "4.3",
         "recipe": {
@@ -675,20 +684,23 @@
         ]
     },
     "symfony/webpack-encore-bundle": {
-        "version": "1.6",
+        "version": "1.12",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
-            "version": "1.6",
-            "ref": "69e1d805ad95964088bd510c05995e87dc391564"
+            "version": "1.9",
+            "ref": "0f274572ea315eb3b5884518a50ca43f211b4534"
         },
         "files": [
-            "assets/app.js",
             "assets/styles/app.css",
+            "assets/controllers.json",
+            "assets/controllers/hello_controller.js",
+            "assets/app.js",
+            "assets/bootstrap.js",
             "config/packages/assets.yaml",
             "config/packages/prod/webpack_encore.yaml",
-            "config/packages/test/webpack_encore.yaml",
             "config/packages/webpack_encore.yaml",
+            "config/packages/test/webpack_encore.yaml",
             "package.json",
             "webpack.config.js"
         ]
@@ -710,6 +722,9 @@
     },
     "twig/extra-bundle": {
         "version": "v3.0.5"
+    },
+    "twig/string-extra": {
+        "version": "v3.3.3"
     },
     "twig/twig": {
         "version": "v3.0.5"

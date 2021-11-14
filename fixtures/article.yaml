@@ -1,0 +1,50 @@
+App\Entity\Article:
+  article_{1..10}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_1'
+
+  article_{11..20}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_2'
+
+  article_{21..30}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_3'
+
+  article_{31..40}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_4'
+
+  article_{41..50}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_5'
+
+  article_{51..60}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_6'
+
+  article_{61..70}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_7'
+
+  article_{71..80}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_8'
+
+  article_{81..90}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_9'
+
+  article_{91..100}:
+    title: '<word()>'
+    text: '<text(6000)>'
+    author: '@author_10'
